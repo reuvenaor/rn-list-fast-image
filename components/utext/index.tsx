@@ -20,7 +20,7 @@ const UiText = ({ typo, children, style }: TextProp) => {
 
 const stl = StyleSheet.create({
   def: {
-    // flex: 1
+    flex: 1,
   }
 });
 

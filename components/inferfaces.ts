@@ -1,5 +1,13 @@
 import {StyleProp, ViewStyle, TextStyle} from 'react-native'
 
+export interface Data {
+  id: number,
+  imgUrl: string,
+  type: string,
+  defect_beans: number,
+  precent: number
+}
+
 export interface TextInputProp {
   onChangeText: any,
   maxInputLength?: number
@@ -17,7 +25,7 @@ export interface BeanListProp {
 export interface BeanItemProp {
   onFeedBack: any,
   maxInputLength: number,
-  data: any
+  data: Data
 }
 
 export interface ImageProp {
@@ -29,5 +37,4 @@ export interface TextProp {
   children: string
   style?: StyleProp<TextStyle>
 }
-
 

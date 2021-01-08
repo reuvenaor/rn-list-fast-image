@@ -20,10 +20,9 @@ const Image = ({imgUrl}: ImageProp) => (
 
 const st = StyleSheet.create({
   img: {
-    width: 200, 
-    height: 200,
-    borderRadius: Sizes.BORDER_RAD
-    //aspectRatio: 1
+    height: '100%',
+    borderRadius: Sizes.BORDER_RAD,
+    aspectRatio: 1,
   },
 });
 

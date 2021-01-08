@@ -4,7 +4,7 @@ import {
   TextInput,
 } from 'react-native';
 import {TextInputProp} from '../inferfaces';
-import {Sizes, Styles, Colors} from '../../styles'
+import { Styles, Colors} from '../../styles'
 
 const UiTextInput = ({onChangeText, maxInputLength, style}: TextInputProp) => {
 
@@ -26,13 +26,11 @@ const UiTextInput = ({onChangeText, maxInputLength, style}: TextInputProp) => {
 
 const stl = StyleSheet.create({
   textInput: {
-    width: '30%',
-    height: '90%',
-    marginHorizontal: '2%',
-    borderRadius: Sizes.BORDER_RAD,
+    width: '40%',
+    height: '100%',
+    padding: 0,
+    paddingLeft: '1%',
     textAlignVertical: 'top',
-    paddingHorizontal: '5%',
-    marginVertical: '2%'
   },
 });
 
