@@ -23,6 +23,9 @@ const createArray = (SIZE: number) => {
 }
 const data: Array<any> = createArray(100);
 
+// relative path:
+import BeansList from '../ExerciseList/components/beanList';
+
 const Screen = () => {
   const [state] = React.useState(data)
   
